@@ -1,0 +1,6 @@
+/tmp/activity4-suf7srwz/client.c: In function ‘main’:
+/tmp/activity4-suf7srwz/client.c:85:17: warning: ignoring return value of ‘read’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   85 |                 read(sock , buffer, 2);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~
+shift-1% n=30,000/class repeat=1: NO DIFFERENCE; significant deciles=[]
+shift-1% n=30,000/class repeat=2: NO DIFFERENCE; significant deciles=[]

@@ -1,0 +1,88 @@
+{
+  "n_per_class": 30000,
+  "alpha": 0.09,
+  "alpha_per_decile": 0.01,
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 3713916221,
+  "difference_detected": false,
+  "significant_deciles": [],
+  "baseline_median_cycles": 56755.0,
+  "modified_median_cycles": 56877.0,
+  "decile_results": [
+    {
+      "decile": 10,
+      "observed_difference_cycles": 18.0,
+      "threshold_cycles": 177.5,
+      "threshold_baseline_cycles": 177.5,
+      "threshold_modified_cycles": 168.5,
+      "significant": false
+    },
+    {
+      "decile": 20,
+      "observed_difference_cycles": 35.5,
+      "threshold_cycles": 262.0,
+      "threshold_baseline_cycles": 242.0,
+      "threshold_modified_cycles": 262.0,
+      "significant": false
+    },
+    {
+      "decile": 30,
+      "observed_difference_cycles": 264.5,
+      "threshold_cycles": 702.5,
+      "threshold_baseline_cycles": 651.5,
+      "threshold_modified_cycles": 702.5,
+      "significant": false
+    },
+    {
+      "decile": 40,
+      "observed_difference_cycles": 264.5,
+      "threshold_cycles": 438.25,
+      "threshold_baseline_cycles": 438.25,
+      "threshold_modified_cycles": 399.5,
+      "significant": false
+    },
+    {
+      "decile": 50,
+      "observed_difference_cycles": 122.0,
+      "threshold_cycles": 212.25,
+      "threshold_baseline_cycles": 212.25,
+      "threshold_modified_cycles": 196.0,
+      "significant": false
+    },
+    {
+      "decile": 60,
+      "observed_difference_cycles": 123.0,
+      "threshold_cycles": 189.75,
+      "threshold_baseline_cycles": 189.75,
+      "threshold_modified_cycles": 178.75,
+      "significant": false
+    },
+    {
+      "decile": 70,
+      "observed_difference_cycles": 87.5,
+      "threshold_cycles": 218.25,
+      "threshold_baseline_cycles": 218.25,
+      "threshold_modified_cycles": 189.0,
+      "significant": false
+    },
+    {
+      "decile": 80,
+      "observed_difference_cycles": 23.0,
+      "threshold_cycles": 258.5,
+      "threshold_baseline_cycles": 247.0,
+      "threshold_modified_cycles": 258.5,
+      "significant": false
+    },
+    {
+      "decile": 90,
+      "observed_difference_cycles": 197.0,
+      "threshold_cycles": 421.0,
+      "threshold_baseline_cycles": 402.75,
+      "threshold_modified_cycles": 421.0,
+      "significant": false
+    }
+  ],
+  "channel": "same-xy",
+  "repeat": 2,
+  "dataset_file": "same-xy-n30000-r02.csv"
+}

@@ -1,0 +1,17 @@
+/tmp/activity4-zyjhulne/client.c: In function ‘main’:
+/tmp/activity4-zyjhulne/client.c:85:17: warning: ignoring return value of ‘read’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   85 |                 read(sock , buffer, 2);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~
+shift-1% n=500,000/class repeat=1: DIFFERENCE; significant deciles=[10]
+shift-1% n=500,000/class repeat=2: NO DIFFERENCE; significant deciles=[]
+shift-1% n=500,000/class repeat=3: DIFFERENCE; significant deciles=[10]
+/tmp/activity4-zyjhulne/client.c: In function ‘main’:
+/tmp/activity4-zyjhulne/client.c:85:17: warning: ignoring return value of ‘read’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   85 |                 read(sock , buffer, 2);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~
+same-xy  n=500,000/class repeat=1: NO DIFFERENCE; significant deciles=[]
+same-xy  n=500,000/class repeat=2: NO DIFFERENCE; significant deciles=[]
+same-xy  n=500,000/class repeat=3: NO DIFFERENCE; significant deciles=[]
+
+Saved repeated timing datasets and RTLF results under activity4_results/n500k
+Summary: activity4_results/n500k/summary_shift1_samexy_rtlf.json

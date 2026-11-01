@@ -1,0 +1,38 @@
+{
+  "experiment": "Activity 4: sample-size effect on an artificial timing side channel",
+  "hypothesis": "With the same shift-5% channel and analysis, the larger sample will give stronger statistical evidence for a timing difference.",
+  "null_hypothesis": "Baseline and modified timing distributions are equal.",
+  "alternative_hypothesis": "Baseline and modified timing distributions differ.",
+  "alpha": 0.05,
+  "dataset_source": "Authors' f_source_files_artificial_side_channels.zip, shift-5% client/server",
+  "sample_size_means": "number of timing observations in each class",
+  "analysis": "two-sided Mann\u2013Whitney U, tie-corrected normal approximation with continuity correction",
+  "environment": {
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "python": "3.13.9",
+    "gcc": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0"
+  },
+  "results": {
+    "small": {
+      "n_per_class": 500,
+      "baseline_median_cycles": 19370.0,
+      "modified_median_cycles": 19466.0,
+      "median_difference_modified_minus_baseline": 96.0,
+      "mann_whitney_u_baseline": 118498.5,
+      "z_approx": 1.4235884380931108,
+      "p_value_two_sided_approx": 0.15456564469946435,
+      "reject_equal_distributions_at_0_05": false
+    },
+    "large": {
+      "n_per_class": 5000,
+      "baseline_median_cycles": 26128.0,
+      "modified_median_cycles": 26236.0,
+      "median_difference_modified_minus_baseline": 108.0,
+      "mann_whitney_u_baseline": 11962120.0,
+      "z_approx": 3.7263524848333556,
+      "p_value_two_sided_approx": 0.00019427068188232748,
+      "reject_equal_distributions_at_0_05": true
+    }
+  }
+}
